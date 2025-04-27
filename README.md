@@ -14,22 +14,6 @@ Real-world landmark recognition systems must operate under diverse environmental
 
 All models are trained and evaluated using GPU acceleration on the **Kaggle platform**.
 
-## 🧱 Project Structure
-
-```bash
-├── codes/
-│   ├── bounding-boxes code.ipynb         # Bounding box generation, COCO annotations, ProtoNet training
-│   ├── resnet-efficient.ipynb            # Transfer learning with ResNet-50 and EfficientNet-B0
-│
-├── Data/
-│   ├── train.csv                         # Contains metadata and file paths for training images
-│
-├── Models_format/
-│   ├── *.pth / *.onnx                    # Pretrained models in PyTorch and ONNX formats
-│   ├── coco_annotations.json            # COCO-style annotations for cropped images
-│
-└── README.md                             # This file
-```
 
 ## 🧠 Models and Methodology
 
